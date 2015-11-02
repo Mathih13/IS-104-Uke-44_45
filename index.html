@@ -1,1 +1,69 @@
-<a href="selectmenu.html">Click me</a>
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title>Group Viewer</title>
+    <link rel="stylesheet" href="selectmenustyle.css">
+  <style>
+  label { display: block; }
+  select { width: 200px; }
+  .overflow { height: 150px; }
+  </style>
+
+    
+
+    
+    
+</head>
+
+<body>
+
+	<header>
+	 <p>Version @ 02.11.2015</p>
+        <p>Created by Group 5 (Mathias, Stina, Erik, Eirik, Johanne, Terje)</p>
+	</header>
+
+    
+    <p id="prompt">Please Select a Team:</p>
+<select name="teams" id="teams">
+  <option value="none">Select Team</option>
+  <option value="team1">Group 1</option>
+  <option value="team2">Group 2</option>
+  <option value="team3">Group 3</option>
+  <option value="team4">Group 4</option>
+  <option value="team5">Group 5</option>
+  <option value="team6">Group 6</option>
+  <option value="team7">Group 7</option>
+</select>
+    
+    <h1 id="teamname"></h1>
+    
+    
+<div class="selectcontainer">
+<p id="handin">Handed In:</p>
+<p id="names"> Name:</p>
+<p id="handindisplay"></p>
+<p id="teamdisplay"></p>
+
+    
+    </div>
+    
+
+	<footer>
+       
+	</footer>
+
+</body>
+    
+    
+    
+       <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chance/0.5.6/chance.js"></script>
+    
+
+  <script src="selectmenuscripts.js"></script>
+    
+
+</html>
